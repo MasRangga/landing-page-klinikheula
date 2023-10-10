@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Klinik Heula</title>
+    <link rel="icon" href="asset/img/icon.svg" type="image/png" />
+    <meta name="title" content="Klinik Heula" />
+    <meta name="description" content="KlinikHeaula" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="asset/css/newstyle.css" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="asset/img/icon.svg"
+            width="100"
+            height="46"
+            alt="KlinikHeaula"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="asset/img/icon.svg"
+                width="100"
+                height="46"
+                alt="KlinikHeaula"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="clsoe menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link title-md">Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link title-md">About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link title-md">Blog</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="btn has-before title-md">Make Appointment</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle has-before" data-reveal="left">
+                Selamat Datang di KlinikHeaula
+              </p>
+
+              <h1 class="headline-lg hero-title" data-reveal="left">
+                Temukan Dokter <br />
+                Terdekat.
+              </h1>
+
+              <div class="hero-card" data-reveal="left">
+                <p class="title-lg card-text">
+                  Cari dokter, klinik, rumah sakit, dan lainnya.
+                </p>
+
+                <div class="wrapper">
+                  <div class="input-wrapper title-lg">
+                    <input
+                      type="text"
+                      name="Lokasi"
+                      placeholder="Lokasi"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <button class="btn has-before">
+                    <ion-icon name="search"></ion-icon>
+
+                    <span class="span title-md">Cari </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <figure class="hero-banner" data-reveal="right">
+              <img
+                src="asset/img/about-banner.png"
+                width="590"
+                height="517"
+                loading="eager"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+        <div id="services" class="section">
+          <section class="service" aria-label="Layanan Kesehatan">
+            <div class="container">
+              <ul class="service-list">
+                <li>
+                  <div class="service-card" data-reveal="bottom">
+                    <div class="card-icon">
+                      <img
+                        src="asset/img/icon-1.png"
+                        width="71"
+                        height="71"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+                    <h3 class="headline-sm card-title">
+                      <a href="#">Psikiatri</a>
+                    </h3>
+                    <p class="card-text">
+                      Memberikan layanan kesehatan mental terbaik dengan
+                      perhatian penuh.
+                    </p>
+                    <button
+                      class="btn-circle"
+                      aria-label="Baca selengkapnya tentang Psikiatri"
+                    >
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </li>
+
+                <!-- Tambahkan li lainnya sesuai kebutuhan -->
+
+                <li>
+                  <div class="service-card" data-reveal="bottom">
+                    <div class="card-icon">
+                      <img
+                        src="asset/img/icon-2.png"
+                        width="71"
+                        height="71"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+                    <h3 class="headline-sm card-title">
+                      <a href="#">Ginekologi</a>
+                    </h3>
+                    <p class="card-text">
+                      Menyediakan perawatan kesehatan perempuan dengan penuh
+                      kepedulian.
+                    </p>
+                    <button
+                      class="btn-circle"
+                      aria-label="Baca selengkapnya tentang Ginekologi"
+                    >
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </li>
+
+                <!-- Tambahkan li lainnya sesuai kebutuhan -->
+
+                <li>
+                  <div class="service-card" data-reveal="bottom">
+                    <div class="card-icon">
+                      <img
+                        src="asset/img/icon-3.png"
+                        width="71"
+                        height="71"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+                    <h3 class="headline-sm card-title">
+                      <a href="#">Pulmonologi</a>
+                    </h3>
+                    <p class="card-text">
+                      Menyediakan diagnosis dan perawatan terbaik untuk masalah
+                      pernapasan.
+                    </p>
+                    <button
+                      class="btn-circle"
+                      aria-label="Baca selengkapnya tentang Pulmonologi"
+                    >
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="service-card" data-reveal="bottom">
+                    <div class="card-icon">
+                      <img
+                        src="asset/img/icon-4.png"
+                        width="71"
+                        height="71"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+                    <h3 class="headline-sm card-title">
+                      <a href="#">Ortopedi</a>
+                    </h3>
+                    <p class="card-text">
+                      Menyediakan layanan ortopedi dengan fokus pada pemulihan
+                      dan kenyamanan pasien.
+                    </p>
+                    <button
+                      class="btn-circle"
+                      aria-label="Baca selengkapnya tentang Ortopedi"
+                    >
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <!-- 
+        - #ABOUT
+      -->
+        <div id="about" class="section">
+          <section class="section about" aria-labelledby="about-label">
+            <div class="container">
+              <div class="about-content">
+                <p
+                  class="section-subtitle title-lg has-after"
+                  id="about-label"
+                  data-reveal="left"
+                >
+                  Tentang Klinik Heula
+                </p>
+
+                <h2 class="headline-md" data-reveal="left">
+                  Tenaga Kerja Berpengalaman
+                </h2>
+
+                <p class="section-text" data-reveal="left">
+                  Klinik Heula adalah tempat yang didedikasikan untuk memberikan
+                  pelayanan kesehatan terbaik. Kami memiliki tenaga kerja yang
+                  berpengalaman dan siap memberikan perawatan terbaik untuk Anda
+                  dan keluarga.
+                </p>
+
+                <ul class="tab-list" data-reveal="left">
+                  <li>
+                    <button class="tab-btn active">Visi</button>
+                  </li>
+
+                  <li>
+                    <button class="tab-btn">Misi</button>
+                  </li>
+
+                  <li>
+                    <button class="tab-btn">Strategi</button>
+                  </li>
+                </ul>
+
+                <p class="tab-text" data-reveal="left">
+                  Kami berkomitmen untuk memberikan pelayanan yang ramah dan
+                  berkualitas. Percayakan kesehatan Anda kepada kami, dan kami
+                  akan berusaha sebaik mungkin untuk memberikan perawatan yang
+                  Anda butuhkan.
+                </p>
+
+                <div class="wrapper">
+                  <ul class="about-list">
+                    <li class="about-item" data-reveal="left">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      <span class="span">Pelayanan terbaik untuk Anda</span>
+                    </li>
+
+                    <li class="about-item" data-reveal="left">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      <span class="span">Tenaga kerja berdedikasi</span>
+                    </li>
+
+                    <li class="about-item" data-reveal="left">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      <span class="span">Keterlibatan dalam pengembangan</span>
+                    </li>
+
+                    <li class="about-item" data-reveal="left">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      <span class="span">Kualitas menjadi prioritas</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <figure class="about-banner" data-reveal="right">
+                <img
+                  src="asset/img/about-banner.png"
+                  width="400"
+                  height="500"
+                  loading="lazy"
+                  alt="about banner"
+                  class="w-100"
+                />
+              </figure>
+            </div>
+          </section>
+        </div>
+
+        <!-- 
+        - #BLOG
+      -->
+        <div id="blog" class="section"></div>
+        <section class="section blog" aria-labelledby="blog-label">
+          <div class="container">
+            <p
+              class="section-subtitle title-lg text-center"
+              id="blog-label"
+              data-reveal="bottom"
+            >
+              Temukan Wawasan Terkini
+            </p>
+
+            <h2
+              class="section-title headline-md text-center"
+              data-reveal="bottom"
+            >
+              Artikel Pilihan
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Oleh John Doe</span>
+                    </div>
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Spesialis</span>
+                    </div>
+                  </div>
+                  <h3 class="headline-sm card-title">
+                    Mengungkap Misteri Puasa Intermiten untuk Kesehatan Payudara
+                  </h3>
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 Januari 2022</time
+                  >
+                  <p class="card-text">
+                    Penelitian terbaru menyoroti potensi puasa intermiten dalam
+                    melindungi kesehatan payudara.
+                  </p>
+                  <a href="#" class="btn-text title-lg">Baca Lebih Lanjut</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Oleh Jane Doe</span>
+                    </div>
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Spesialis</span>
+                    </div>
+                  </div>
+                  <h3 class="headline-sm card-title">
+                    Memberikan Keleluasaan pada Anak Selama Pandemi: Mengapa
+                    Penting?
+                  </h3>
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >30 Januari 2022</time
+                  >
+                  <p class="card-text">
+                    Menjelajahi dampak positif memberikan keleluasaan kepada
+                    anak-anak selama masa pandemi global.
+                  </p>
+                  <a href="#" class="btn-text title-lg">Baca Lebih Lanjut</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Oleh Michael </span>
+                    </div>
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Spesialis</span>
+                    </div>
+                  </div>
+                  <h3 class="headline-sm card-title">
+                    Dampak Konsumsi Makanan dan Minuman Berlebihan pada
+                    Kesehatan Hati
+                  </h3>
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >01 Januari 2022</time
+                  >
+                  <p class="card-text">
+                    Mengetahui bagaimana kebiasaan makan dan minum berlebihan
+                    dapat memengaruhi kesehatan hati kita.
+                  </p>
+                  <a href="#" class="btn-text title-lg">Baca Lebih Lanjut</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Form Section -->
+    <form>
+      <h3 class="section-title headline-md text-center" data-reveal="bottom">
+        Form
+      </h3>
+      <input id="name" type="text" placeholder="Your name here" />
+      <br />
+      <input id="city" type="text" placeholder="Your city here" />
+      <br />
+      <input id="email" type="email" placeholder="Your email here" />
+      <br />
+      <input id="zip-code" type="number" placeholder="Your postal-code" />
+      <br />
+      <input id="status" type="checkbox" />
+      <label id="check"
+        >Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+        dan telah sesuai</label
+      >
+      <br />
+      <button id="submit-form" type="submit">Submit</button>
+      <div id="warning"></div>
+    </form>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="section footer-top">
+          <div class="footer-brand" data-reveal="bottom">
+            <a href="#" class="logo">
+              <img
+                src="asset/img/icon.svg"
+                width="136"
+                height="46"
+                loading="lazy"
+                alt="KlinikHeaula"
+              />
+            </a>
+
+            <ul class="contact-list has-after">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p>
+                    Main Email:
+                    <a href="mailto:contact@website.com" class="contact-link"
+                      >KlinikHeaula@website.com</a
+                    >
+                  </p>
+                  <p>
+                    Inquiries:
+                    <a href="mailto:Info@mail.com" class="contact-link"
+                      >KlinikHeaula@website.com</a
+                    >
+                  </p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p>
+                    Office Telephone:
+                    <a href="tel:01234556" class="contact-link">01234556</a>
+                  </p>
+                  <p>
+                    Mobile:
+                    <a href="tel:01234 56" class="contact-link"
+                      >0001123356456</a
+                    >
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="text copyright">
+            &copy; KlinikHeaula 2022 | Kesehatan Prioritas Utama
+          </p>
+          <p class="text subtext">Design inspiration by bedimcode</p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-google"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-pinterest"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="asset/js/newscript.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
